@@ -1,22 +1,26 @@
 # Rock Paper Scissors
 
-A JavaScript-based Rock Paper Scissors game played against the computer.
+A browser-based **Rock Paper Scissors** game built for **The Odin Project** Foundations curriculum.
 
-## Features
-* **5-Round Match**: Plays exactly five rounds per game session.
-* **Automatic Scoring**: Tracks wins for both the player and the computer.
-* **Dynamic UI**: Injects the final winner and score into the `<h1>` element upon completion.
+## 🚀 Features
+- **Interactive UI:** Button-based gameplay using JavaScript DOM manipulation.
+- **Score Tracking:** First player (Human or Computer) to reach 5 points wins the match.
+- **Real-time Updates:** Game status and results update instantly in the page heading.
+- **Randomized Logic:** Computer choices generated using math-based random selection.
+- **GitHub Pages Ready:** Fully playable online with no local setup required.
 
-## How to Run
-1. Clone the repository.
-2. Open `index.html` in any modern web browser.
-3. Use the UI buttons to play.
+## 🛠️ Tech Stack
+- **HTML5:** Semantic structure for the game container.
+- **CSS3:** Center-aligned layout and basic styling.
+- **JavaScript:** Game logic, event listeners, and dynamic UI updates.
 
-## Logic Overview
-* **Input**: User selects Rock, Paper, or Scissors.
-* **Computer AI**: Uses `Math.random()` to generate a counter-move.
-* **Ending**: After 5 rounds, the game calculates the total score and updates the DOM header.
+## 🌐 Live Demo
+The project is hosted on **GitHub Pages** and available here:
 
-## Technologies
-* HTML5
-* JavaScript (ES6+)
+https://melchior729.github.io/rock-paper-scissors/
+
+## 📂 Project Structure
+```text
+├── index.html            # Game structure
+├── style.css             # Page styling
+└── rockPaperScissors.js  # Game logic & DOM manipulation
